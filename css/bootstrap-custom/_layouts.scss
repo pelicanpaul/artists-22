@@ -1,0 +1,49 @@
+
+
+@media (min-width: 2200px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 2100px;
+  }
+}
+
+.two-cols, .three-cols, .four-cols, .five-cols {
+  column-count: 1;
+}
+
+@include media-breakpoint-up(lg) {
+
+  .two-cols {
+    column-count: 2;
+    column-gap: 80px;
+  }
+
+  .three-cols {
+    column-count: 3;
+    column-gap: 60px;
+  }
+
+  .four-cols {
+    column-count: 3;
+    column-gap: 50px;
+  }
+
+  .five-cols {
+    column-count: 4;
+    column-gap: 40px;
+  }
+
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}
+
+.padding-right-25 {
+  padding-right: 25px;
+}
+
+@include media-breakpoint-down(md) {
+  .padding-right-20, .padding-right-25 {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="162px" viewBox="0 0 120 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>brochure</title>
+    <desc>Created with Sketch.</desc>
+    <g id="brochure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-12" stroke="#47A0AE" stroke-width="3" fill-rule="nonzero" x="1.5" y="1.5" width="117" height="159" rx="10"></rect>
+        <path d="M15,51.25 L100,51.25" id="Path-29" stroke="#47A0AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M15,67.25 L100,67.25" id="Path-29" stroke="#47A0AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <rect id="Rectangle" stroke="#47A0AE" stroke-width="3" fill-rule="nonzero" x="15.5" y="84.75" width="90" height="29" rx="3"></rect>
+        <path d="M15,131.25 L75,131.25" id="Path-28" stroke="#47A0AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M15,139.25 L75,139.25" id="Path-28" stroke="#47A0AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <rect id="Rectangle" stroke="#47A0AE" stroke-width="3" fill-rule="nonzero" x="14.5" y="19.75" width="48" height="14" rx="3"></rect>
+    </g>
+</svg>

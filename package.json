@@ -1,0 +1,14 @@
+{
+  "name": "artist-22",
+  "version": "0.1.0",
+  "description": "node for artist-22",
+  "author": "pelicanpaul",
+  "scripts": {
+    "scss": "node-sass --watch css -o css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "package.json": "^2.0.1"
+  }
+}

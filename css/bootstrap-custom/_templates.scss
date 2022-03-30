@@ -1,0 +1,50 @@
+body.home, body.page-template-flexible-content  {
+  #main {
+    padding: 0;
+  }
+}
+
+
+@include media-breakpoint-up(xl){
+
+  body.page-template-home {
+    .logo {
+      max-width: 320px;
+      margin: 10px 0;
+      filter: invert(1);
+    }
+
+
+    @media (min-width: 1200px) {
+      #menu-main-menu li {
+        background-color: transparent;
+        a {
+          color: #eee;
+        }
+      }
+    }
+
+  }
+
+  body.page-template-default, body.page-template-page-narrow  {
+    #main {
+      padding-top: 140px;
+    }
+  }
+
+  body.page-template-page-narrow  {
+    .container-content-page {
+      max-width: 50%;
+    }
+  }
+}
+
+@include media-breakpoint-down(xl){
+  body.page-template-home {
+    .container-page {
+      margin-top: 0;
+    }
+  }
+
+}
+

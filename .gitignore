@@ -1,0 +1,11 @@
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+node_modules
+!assets/advanced-custom-fields-pro.zip

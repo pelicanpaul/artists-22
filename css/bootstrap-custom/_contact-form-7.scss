@@ -1,0 +1,68 @@
+.wpcf7-form {
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  max-width: 55%;
+}
+
+@include media-breakpoint-down(lg) {
+
+  .wpcf7-form {
+    max-width: 100%;
+  }
+
+}
+
+.form-control {
+  margin-top: 3px;
+}
+
+.wpcf7-select {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: block;
+  width: 100%;
+  padding: 0.575rem 0.75rem;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4A4A4A;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wpcf7-submit {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+/*  background-color: #f37321;
+  border-color: #f37321;*/
+  padding: 0.375rem 3em;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border-style: solid;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.required {
+  color: $warning;
+  font-size: 120%;
+}
+
+.wpcf7-not-valid-tip {
+  margin-top: 5px;
+  font-size: 80%;
+}

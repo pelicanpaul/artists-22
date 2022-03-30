@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="162px" viewBox="0 0 120 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>blog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#979797" stroke-width="3" fill-rule="nonzero" cx="78.5" cy="120.5" r="23.5"></circle>
+        <rect id="Rectangle-12" stroke="#979797" stroke-width="3" fill-rule="nonzero" x="1.5" y="1.5" width="117" height="159" rx="10"></rect>
+        <path d="M15,20 L75,20" id="Path-28" stroke="#979797" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M15,35.25 L75,35.25" id="Path-28" stroke="#979797" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M15,51.25 L100,51.25" id="Path-29" stroke="#979797" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M15,67.25 L100,67.25" id="Path-29" stroke="#979797" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+        <path d="M69.6532336,130.142572 L69.6532336,110.302572 C69.6532336,109.598572 70.2292336,109.022572 70.9012336,109.022572 L79.1892336,109.022572 C81.7492336,109.022572 83.7652336,109.758572 85.0452336,111.006572 C85.9732336,111.966572 86.4852336,113.150572 86.4852336,114.590572 L86.4852336,114.654572 C86.4852336,117.566572 84.6932336,119.070572 82.9332336,119.838572 C85.5892336,120.638572 87.7332336,122.174572 87.7332336,125.246572 L87.7332336,125.310572 C87.7332336,129.150572 84.5012336,131.422572 79.6052336,131.422572 L70.9012336,131.422572 C70.2292336,131.422572 69.6532336,130.846572 69.6532336,130.142572 Z M72.1492336,119.006572 L78.7732336,119.006572 C81.8132336,119.006572 83.9252336,117.630572 83.9252336,115.006572 L83.9252336,114.942572 C83.9252336,112.734572 82.1652336,111.294572 78.9652336,111.294572 L72.1492336,111.294572 L72.1492336,119.006572 Z M72.1492336,129.150572 L79.6692336,129.150572 C83.0612336,129.150572 85.1732336,127.646572 85.1732336,125.150572 L85.1732336,125.086572 C85.1732336,122.654572 83.1252336,121.246572 79.2212336,121.246572 L72.1492336,121.246572 L72.1492336,129.150572 Z" id="B" stroke="#979797" stroke-width="0.7" fill="#979797"></path>
+    </g>
+</svg>

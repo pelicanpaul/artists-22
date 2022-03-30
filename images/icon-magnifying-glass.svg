@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Phase-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Phase2-blog" transform="translate(-967.000000, -1072.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(930.000000, 334.000000)">
+                <g id="Group-3">
+                    <g id="Group-4" transform="translate(25.000000, 680.000000)">
+                        <g id="Search" transform="translate(12.000000, 58.000000)">
+                            <g id="search">
+                                <g id="Octicons">
+                                    <g id="search">
+                                        <path d="M19.6,17.7333333 L14.52,12.6266667 C15.4865955,11.2779503 16.0043725,9.65931414 16,8 C16,3.58666667 12.4133333,0 8,0 C3.58666667,0 0,3.58666667 0,8 C0,12.4133333 3.58666667,16 8,16 C9.73333333,16 11.3066667,15.4533333 12.6266667,14.52 L17.7333333,19.6 C17.9866667,19.8666667 18.3333333,20 18.6666667,20 C19,20 19.36,19.88 19.6,19.6 C19.8496375,19.3508739 19.9899254,19.0126793 19.9899254,18.66 C19.9899254,18.3073207 19.8496375,17.9691261 19.6,17.72 L19.6,17.7333333 Z M8,14.2666667 C4.54666667,14.2666667 1.73333333,11.4533333 1.73333333,8 C1.73333333,4.54666667 4.54666667,1.73333333 8,1.73333333 C11.4533333,1.73333333 14.2666667,4.54666667 14.2666667,8 C14.2666667,11.4533333 11.4533333,14.2666667 8,14.2666667 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

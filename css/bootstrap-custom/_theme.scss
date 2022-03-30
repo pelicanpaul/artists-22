@@ -1,0 +1,470 @@
+
+// setup sticky footer
+
+html, body {
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+
+}
+
+
+@include media-breakpoint-up(xl){
+
+  .page-wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+  }
+
+  .footer, .push {
+    height: 100px; /* .push must be the same height as .footer */
+  }
+}
+
+
+/* colors */
+
+.orange { color: $orange !important;}
+.teal { color: $teal !important;}
+.white { color: $white !important;}
+
+a,
+a:visited,
+a:active {
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -khtml-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:hover {
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -khtml-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+// header
+
+header {
+  background-color: rgba(255,255,255, 0.96);
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 90px;
+}
+
+@include media-breakpoint-up(xl) {
+  .page-template-home header {
+    background-color: rgba(0,0,0,0.85);
+    border-bottom: 1px solid transparent;
+  }
+}
+
+
+
+/*font specials*/
+
+p.huge, span.huge {
+  font-size: 7.375rem;
+  letter-spacing: -2.95px;
+  line-height: 1.125;
+  text-align: center;
+}
+
+//for fixed header
+
+/*body.admin-bar {
+  header {
+    top: 32px;
+  }
+  .container-page {
+    margin-top: 120px;
+  }
+}
+
+body.admin-bar header {
+  top: 32px;
+}*/
+
+@include media-breakpoint-down(xl) {
+  body.admin-bar {
+    header {
+      top: 0;
+    }
+    .container-page {
+      margin-top: 0;
+    }
+  }
+
+  header {
+    top: 0;
+  }
+  .container-page {
+    margin-top: 0;
+  }
+
+}
+
+
+/*#main {
+  padding: 50px 0;
+}*/
+
+
+
+// headers
+
+h1, .h1 {
+  font-weight: 100;
+}
+
+h3, .h3 {
+  font-weight: 100;
+}
+
+h4, .h4 {
+  font-family: $font-family-sans-serif;
+  font-weight: 100;
+}
+
+@include media-breakpoint-up(xl){
+  h1, .h1 {
+    font-size: 1.8rem;
+    line-height: 1;
+    margin: 0 0 25px;
+  }
+
+
+  h2, .h2 {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin: 0 0 10px;
+  }
+
+  h3, .h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: $gray-900;
+  }
+
+  h4, .h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    color: $gray-900;
+  }
+
+}
+
+@include media-breakpoint-down(xl){
+
+  h1, .h1 {
+    line-height: 1;
+    margin: 20px 0;
+    font-size: calc(1.5rem + 1.5vw);
+  }
+
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+
+  }
+
+  h3, .h3 {
+    font-size: calc(1.1rem + 0.6vw);
+    letter-spacing: -0.65px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: $gray-900;
+  }
+
+  p.huge, span.huge {
+    font-size: 4.375rem;
+  }
+}
+
+
+hr {
+  margin: 2rem 0;
+  color: inherit;
+  background-color: $gray-800;
+  border: 0;
+  opacity: 0.25;
+}
+
+
+// blockquotes
+
+blockquote {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: -0.69px;
+  line-height: 42px;
+  margin: 50px 0 10px;
+  padding: 0;
+  padding: 40px;
+  background-color: $gray-100;
+}
+
+/*blockquote:before {
+  content: '\201C';
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -6px;
+  font-size: 150px;
+}*/
+
+
+
+.carousel-home-quotes {
+  blockquote {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+}
+
+.quote-end {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-source {
+  font-size: 24px;
+  letter-spacing: -0.69px;
+}
+
+.quote-source:before {
+  content: '\2014';
+}
+
+@include media-breakpoint-down(lg) {
+  blockquote {
+    position: relative;
+    font-size: 24px;
+    letter-spacing: -0.69px;
+    line-height: 1.5;
+    margin: 50px 0 10px;
+    padding: 0;
+  }
+
+/*  blockquote:before {
+    content: "“";
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 150px;
+    line-height: 1;
+  }*/
+
+  .container-wives-tales {
+
+    strong {
+      font-size: 18px;
+    }
+
+    blockquote {
+      position: relative;
+      font-size: 18px;
+      letter-spacing: -0.69px;
+      line-height: 1.525;
+      margin: 20px 0 20px;
+      padding: 0;
+      padding: 20px;
+      background-color: $gray-100;
+    }
+  }
+
+  .quote-end {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .quote-source {
+    font-size: 16px;
+    letter-spacing: -0.69px;
+  }
+
+  .quote-source:before {
+    content: '\2014';
+  }
+}
+
+
+// footer //////////////////////
+
+.footer {
+  background: $footer-bg;
+  background-size: cover;
+  padding-top: 40px;
+  color: #fff;
+
+  .col {
+    padding: 15px 15px 15px 0;
+    p {
+      font-size: 16px;
+      line-height: 2;
+      a, a:hover, a:visited {
+        color: #fff;
+      }
+    }
+  }
+}
+
+#copyright-widget {
+  margin-top: 0;
+  color: #bbb;
+  font-size: 0.8rem;
+  letter-spacing: 0;
+
+  a, a:active, a:visited {
+    color: #bbb;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #bbb;
+    text-decoration: underline;
+  }
+
+  .copyright-date {
+    font-size: 0.8rem;
+  }
+}
+
+footer {
+  ul.social-footer {
+    margin-left: auto;
+    width: 75px;
+    list-style-type: none;
+    padding: 0;
+    min-height: 50px;
+    li {
+      float: left;
+      margin: 0 5px;
+      width: 26px;
+      height: 26px;
+      background-size: contain;
+      background-position: center;
+      a {
+        display: block;
+        width: 26px;
+        height: 26px;
+        text-indent: -9999px;
+      }
+    }
+
+    li.linkedin {
+      background-image: url(/wp-content/themes/artist-22/images/icon-linkedin.svg);
+      filter: brightness(0) invert(1);
+    }
+    li.facebook {
+      background-image: url(/wp-content/themes/artist-22/images/icon-facebook.svg);
+      filter: brightness(0) invert(1);
+    }
+    li.instagram {
+      background-image: url(/wp-content/themes/artist-22/images/icon-instagram.svg);
+      filter: brightness(0) invert(1);
+    }
+    li.twitter {
+      background-image: url(/wp-content/themes/artist-22/images/icon-twitter.svg);
+      filter: brightness(0) invert(1);
+    }
+    li.googleplus {
+      background-image: url(/wp-content/themes/artist-22/images/icon-google.svg);
+      filter: brightness(0) invert(1);
+    }
+    li.blogger {
+      background-image: url(/wp-content/themes/artist-22/images/icon-blogger.svg);
+    }
+  }
+
+}
+
+
+@include media-breakpoint-down(xl){
+  header {
+    background-color: rgba(255, 255, 255, 0.96);
+    border-bottom: none;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 61px;
+  }
+
+  footer {
+    ul.social-footer {
+      margin: 50px calc(50% - 40px) 0;
+      width: 80px;
+      li {
+        float: left;
+        margin: 0 5px;
+        width: 26px;
+        height: 26px;
+        background-size: contain;
+        background-position: center;
+        a {
+          display: block;
+          width: 26px;
+          height: 26px;
+          text-indent: -9999px;
+        }
+      }
+
+      li.linkedin {
+        background-image: url(/wp-content/themes/artist-22/images/icon-linkedin.svg);
+        filter: brightness(0) invert(1);
+      }
+      li.facebook {
+        background-image: url(/wp-content/themes/artist-22/images/icon-facebook.svg);
+        filter: brightness(0) invert(1);
+      }
+      li.instagram {
+        background-image: url(/wp-content/themes/artist-22/images/icon-twitter.svg);
+        filter: brightness(0) invert(1);
+      }
+      li.twitter {
+        background-image: url(/wp-content/themes/artist-22/images/icon-twitter.svg);
+        filter: brightness(0) invert(1);
+      }
+      li.googleplus {
+        background-image: url(/wp-content/themes/artist-22/images/icon-google.svg);
+        filter: brightness(0) invert(1);
+      }
+      li.blogger {
+        background-image: url(/wp-content/themes/artist-22/images/icon-blogger.svg);
+      }
+    }
+
+  }
+
+  #copyright-widget {
+    margin: 10px 0;
+  }
+}
+
+.container-breadcrumbs {
+  padding: 10px 0;
+  background-color: #fcfcfc;
+  font-size: 14px;
+  a {
+    color: $body-color;
+  }
+}

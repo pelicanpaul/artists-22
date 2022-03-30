@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="162px" viewBox="0 0 120 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>publication</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="publication" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -16.000000)" fill-rule="nonzero" stroke="#3E3E3E" stroke-width="3">
+            <circle id="Oval" cx="78.5" cy="136.5" r="23.5"></circle>
+            <rect id="Rectangle-12" x="1.5" y="17.5" width="117" height="159" rx="10"></rect>
+            <path d="M15,36 L75,36" id="Path-28" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M15,51.25 L75,51.25" id="Path-28" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M15,67.25 L100,67.25" id="Path-29" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M15,83.25 L100,83.25" id="Path-29" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <path d="M71.92,129.02 L71.92,111.52 C71.92,110.904 72.424,110.4 73.012,110.4 L79.256,110.4 C83.68,110.4 86.592,112.752 86.592,116.616 L86.592,116.672 C86.592,120.9 83.064,123.084 78.892,123.084 L74.132,123.084 L74.132,129.02 C74.132,129.636 73.628,130.14 73.012,130.14 C72.424,130.14 71.92,129.636 71.92,129.02 Z M74.132,121.068 L78.976,121.068 C82.224,121.068 84.352,119.332 84.352,116.756 L84.352,116.7 C84.352,113.9 82.252,112.444 79.088,112.444 L74.132,112.444 L74.132,121.068 Z" id="P" stroke="#3E3E3E" stroke-width="0.8" fill="#3E3E3E"></path>
+    </g>
+</svg>
