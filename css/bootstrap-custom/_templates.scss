@@ -4,6 +4,14 @@ body.home, body.page-template-flexible-content  {
   }
 }
 
+@include media-breakpoint-down(xl){
+  body.home, body.page-template-flexible-content  {
+    #main {
+      padding-top: 61px;
+    }
+  }
+}
+
 //, body.post-type-archive-tribe_events
 
 body.body-dark {
@@ -15,8 +23,6 @@ body.body-dark {
     border-bottom: 1px solid transparent;
 
     .logo {
-      max-width: 320px;
-      margin: 10px 0;
       filter: invert(1);
     }
 

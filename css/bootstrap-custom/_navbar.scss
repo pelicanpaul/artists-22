@@ -147,6 +147,7 @@
     max-width: 220px;
     margin: 0;
   }
+
 }
 
 @include media-breakpoint-down(xl) {
@@ -156,7 +157,7 @@
   }
 
   .logo {
-    max-width: 120px;
+    max-width: 190px;
     margin: 0;
   }
 
@@ -171,9 +172,8 @@
     padding-top: 0;
     padding-bottom: 0;
     width: 100%;
-    background-color: #fff;
     height: 61px;
-    border-bottom: 1px solid $gray-200;
+/*    border-bottom: 1px solid $gray-200;*/
   }
 
   .navbar-collapse {
@@ -269,10 +269,10 @@
     }
 
     .logo {
-      max-width: 120px;
+      max-width: 190px;
       margin: 0;
       position: absolute;
-      top: 17px;
+      top: 22px;
       filter: invert(1);
       z-index: 2;
     }
