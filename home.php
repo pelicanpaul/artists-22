@@ -22,7 +22,7 @@
         <div class="container-header-blog">
             <div class="container-header">
                 <div class="container">
-                    <h1>Official Blog</h1>
+                    <h1><?php echo get_bloginfo( 'name' ) ?> Blog</h1>
                     <h3>Browsing: <?php single_cat_title(); ?></h3></div>
 
             </div>

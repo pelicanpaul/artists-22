@@ -31,28 +31,33 @@
 							$the_title  = get_the_title();
 							$the_title = strlen($the_title) > 80 ? substr($the_title,0,80)."..." : $the_title;
 							?>
-						<article class="blog-item">
+                            <article class="blog-item"
+                                     style="background-image: url(<?php echo $thumb ?> ); background-size: cover; background-position: top center; background-repeat: no-repeat;">
 
-								<div class="col-md-4">
+                                <div class="container-blog-item">
 
-									<div class="container-blog-item" style="background-image: url(<?php echo get_primary_image(get_the_ID(), 'large'); ?>); background-size: cover; background-position: center center">
+                                    <div class="item-inner">
+                                        <a href="<?php echo get_permalink(get_the_ID()); ?>"
+                                           class="blog-title"><?php echo $the_title; ?></a><br/>
+
+                                        <ul class="blog-item-info blog-item-info-archive">
+                                            <li><span class="blog-date">  <?php the_time('F j, Y'); ?></span></li>
+                                            <!-- <li><span class="blog-author">  <?php /*the_author(); */ ?></span></li>-->
+                                            <li><span class="blog-categories">  <?php echo $post_categories; ?></span>
+                                            </li>
+                                        </ul>
+
+                                        <div class="container-excerpt"> <?php the_excerpt(); ?></div>
 
 
-										<a href="<?php echo get_permalink( get_the_ID() ); ?>"
-										   class="blog-title"><?php echo $the_title; ?></a><br/>
+
+                                    </div>
 
 
-									</div>
+                                </div>
 
-									<ul class="blog-item-info blog-item-info-archive">
-										<li><span class="blog-date">  <?php the_time( 'F j, Y' ); ?>,</span></li>
-										<li><span class="blog-author"> By <?php the_author(); ?></span></li>
-										<li class="clear-left"><span class="blog-categories">  <?php echo $post_categories; ?></span></li>
-									</ul>
 
-								</div>
-
-						</article>
+                            </article>
 						<?php endwhile;
 						else: ?>
 

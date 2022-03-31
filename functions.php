@@ -132,9 +132,7 @@ function footer_enqueue_js() {
 
 function gc_register_post_types() {
     $post__types = [
-        'news' => ['menu_icon' => 'dashicons-megaphone'],
-        'team' => ['menu_icon' => 'dashicons-networking'],
-        'events' => ['menu_icon' => 'dashicons-clock'],
+        'news' => ['menu_icon' => 'dashicons-megaphone']
     ];
 
     foreach ($post__types as $key => $options) {
@@ -466,6 +464,18 @@ function my_theme_register_required_plugins() {
     $plugins = array(
 
         array(
+            'name'      => 'Classic Editor',
+            'slug'      => 'classic-editor',
+            'required'  => true,
+        ),
+
+        array(
+            'name'      => 'Classic Widgets',
+            'slug'      => 'classic-widgets',
+            'required'  => true,
+        ),
+
+        array(
             'name'      => 'Simple 301 Redirects',
             'slug'      => 'simple-301-redirects',
             'required'  => true,
@@ -484,9 +494,15 @@ function my_theme_register_required_plugins() {
         ),
 
         array(
-            'name'      => 'SVG Support',
-            'slug'      => 'svg-support',
-            'required'  => true,
+            'name'      => 'Responsive Lightbox and Gallery',
+            'slug'      => 'responsive-lightbox',
+            'required'  => false,
+        ),
+
+        array(
+            'name'      => 'MP3-jPlayer',
+            'slug'      => 'mp3-jplayer',
+            'required'  => false,
         ),
 
         array(

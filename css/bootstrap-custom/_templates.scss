@@ -4,6 +4,8 @@ body.home, body.page-template-flexible-content  {
   }
 }
 
+//, body.post-type-archive-tribe_events
+
 body.body-dark {
   background-color: rgba(0,0,0,0.95);
   color: #fff;
@@ -89,9 +91,17 @@ body.body-dark {
 
   }
 
-  body.page-template-default, body.page-template-page-narrow  {
+  //.page-template-default, body.page-template-page-narrow
+
+  body  {
     #main {
       padding-top: 140px;
+    }
+  }
+
+  body.blog,  body.archive,  body.single {
+    #main {
+      padding-top: 90px;
     }
   }
 

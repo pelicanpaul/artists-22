@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-page container-first-row">
+
     <div id="main">
         <div class="container-content-simple">
 
@@ -29,11 +29,6 @@
                                             class="blog-categories"> <?php echo $post_categories; ?></span></li>
                             </ul>
 
-                            <!--                         <ul class="social">
-                                                         <li class="facebook"><a href="http://www.facebook.com/" target="_blank">Facebook</a></li>
-                                                         <li class="twitter"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-                                                         <li class="linkedin"><a href="http://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-                                                     </ul>-->
 
                             <div class="blog-content">
 
@@ -68,7 +63,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
 <?php get_footer(); ?>
 

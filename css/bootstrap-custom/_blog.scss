@@ -1,14 +1,21 @@
-.blog, .archive, .single {
-  #main {
-    padding: 0 0 50px 0;
+
+.blog, .archive {
+  h1 {
+    color: $black;
   }
+  h3 {
+    /*    color: #fff;*/
+  }
+}
+
+.blog, .archive, .single {
 
   .container-header-blog {
     min-height: 80px;
     display: flex;
     align-content: center;
     justify-content: center;
-    background: #70b9c4;
+    background: $blog-header-bg;
     background-size: cover;
 
     .container-header {
@@ -30,12 +37,10 @@
     padding: 0;
     margin: $grid-gutter-width 0;
 
-
-
     article {
       padding: 0;
-      border-radius: 8px;
       min-height: 300px;
+      cursor: pointer;
 
       .container-blog-item {
         display: flex;
@@ -45,7 +50,6 @@
         flex-direction: column;
         background-color: rgba(255,255,255,0.1);
         min-height: 100%;
-        border-radius: 8px;
         padding: 0;
 
         .item-inner {
@@ -55,6 +59,7 @@
 
         .blog-title {
           font-size: 1.2em;
+          font-family: $font-family-serif;
           line-height: 1.235;
         }
       }
@@ -73,7 +78,7 @@
       .item-inner {
         min-height: 100px;
         .blog-title {
-          font-size: 1.5em;
+          font-size: 2.5em;
         }
 
       }
@@ -81,6 +86,7 @@
       .container-excerpt {
         margin-top: 10px;
         display:block;
+        max-width: 900px;
       }
     }
 
@@ -90,7 +96,7 @@
     }*/
 
     article:hover .container-blog-item {
-      background-color: rgba(71,160,174, 0.8);
+      background-color: rgba(0,0,0, 0.6);
       -o-transition: all 0.2s linear;
       -moz-transition: all 0.2s linear;
       -khtml-transition: all 0.2s linear;
@@ -140,18 +146,18 @@
   }
 
   #main > div.container > div > div.col-xl-3 {
-    display: flex;
+
   }
 
   #container-blog-single > div > div.col-xl-3 {
-    display: flex;
+
   }
 
   .sidebar {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border-top-right-radius: 8px;
+    border-top-right-radius: 4px;
     background-color: #fcfcfc;
     margin-top: $grid-gutter-width;
     padding: 20px;
@@ -183,7 +189,6 @@
 
       article {
         padding: 0;
-        border-radius: 8px;
         min-height: 300px;
 
         .container-blog-item {
@@ -194,7 +199,6 @@
           flex-direction: column;
           background-color: rgba(255,255,255,0.1);
           min-height: 100%;
-          border-radius: 8px;
           padding: 0;
 
 
@@ -257,14 +261,7 @@
 
 }
 
-.blog {
-  h1 {
-    color: #fff;
-  }
-  h3 {
-    color: #fff;
-  }
-}
+
 
 
 

@@ -6,12 +6,14 @@
 // 2. Include any default variable overrides here
 $primary:       #1e5489;
 $secondary:     #003767;
+$tertiary:      #c00;
 $info:          #444;
 
 $gray-800:       #979797; // utility nav
 $gray-900:       #4A4A4A; // body color
 
 $footer-bg:        #000; // footer
+
 $nav-link-color:       $primary;
 
 $font-family-sans-serif: 'Work Sans', Arial, sans-serif;
@@ -50,6 +52,7 @@ $grid-gutter-width:           1.875rem ;
 
 // 3a. update dynamic variables
 $dropdown-link-hover-bg:   $gray-100;
+$blog-header-bg:   $gray-100;
 $link-hover-color: lighten($link-color, 12);
 
 @import "../bootstrap-5.1.3/scss/mixins";
@@ -99,3 +102,4 @@ $link-hover-color: lighten($link-color, 12);
 
 // plugin
 @import "galleries";
+@import "events";
