@@ -1634,7 +1634,8 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": ""
+        "description": "",
+        "show_in_rest": false
     },
     {
         "key": "group_5b4791f2e616c",
@@ -1894,15 +1895,107 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": ""
+        "description": "",
+        "show_in_rest": false
     },
     {
         "key": "group_6238b43ca8ea2",
         "title": "Page Overrides",
         "fields": [
             {
+                "key": "field_6244b2f83fabf",
+                "label": "Page Style",
+                "name": "page_style",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "body-light": "Light",
+                    "body-dark": "Dark",
+                    "body-special": "Special"
+                },
+                "default_value": [
+                    "body-light"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_6244c81518956",
+                "label": "Background Image",
+                "name": "background_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_6244c83318957",
+                "label": "Background Image Overlay",
+                "name": "background_image_overlay",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "dark-90": "dark-90",
+                    "dark-80": "dark-80",
+                    "dark-70": "dark-70",
+                    "dark-60": "dark-60",
+                    "dark-50": "dark-50",
+                    "dark-40": "dark-40",
+                    "dark-20": "dark-20",
+                    "dark-10": "dark-10",
+                    "light-90": "light-90",
+                    "light-80": "light-80",
+                    "light-70": "light-70",
+                    "light-60": "light-60",
+                    "light-50": "light-50",
+                    "light-40": "light-40",
+                    "light-20": "light-20",
+                    "light-10": "light-10"
+                },
+                "default_value": "body-light",
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
                 "key": "field_6238b453db686",
-                "label": "css",
+                "label": "CSS",
                 "name": "css",
                 "type": "textarea",
                 "instructions": "",
@@ -1943,6 +2036,7 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": ""
+        "description": "",
+        "show_in_rest": 0
     }
 ]

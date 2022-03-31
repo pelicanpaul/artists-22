@@ -171,7 +171,7 @@ jQuery(document).ready(function($) {
 
         }
 
-    }, 3800);
+    }, 4500);
 
 
 
