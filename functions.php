@@ -506,6 +506,12 @@ function my_theme_register_required_plugins() {
         ),
 
         array(
+            'name'      => 'The Events Calendar',
+            'slug'      => 'the-events-calendar',
+            'required'  => false,
+        ),
+
+        array(
             'name'      => "IT's Tracking Code",
             'slug'      => 'its-tracking-code',
             'required'  => false,
