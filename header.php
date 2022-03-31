@@ -22,26 +22,66 @@
 
 	<?php
 
+    $page_class = '';
+
     if (class_exists('ACF')) {
 
+        $page_style =  get_field('page_style', get_the_ID());
         $css = get_field('css', get_the_ID());
+        $background_image = get_field('background_image', get_the_ID());
+        $background_image_overlay = get_field('background_image_overlay', get_the_ID());
 
-        if ($css): ?>
 
-            <style>
+        // overlay
+        $gradient = '';
+        $gradient_color = '';
 
-                <?php echo $css ?>
+        if ($background_image_overlay):
 
-            </style>
+            // array
+            $arrayOverlay = explode('-', $background_image_overlay);
 
-        <?php endif;
+            $color = $arrayOverlay[0];
+            $amount=  $arrayOverlay[1];
+
+            if($color == 'dark'){
+                $gradient_color = 'rgba(0,0,0,0.' . $amount . ')';
+            }
+
+            if($color == 'light'){
+                $gradient_color = 'rgba(255,255,255,0.' . $amount . ')';
+            }
+
+            $gradient = 'linear-gradient(90deg, ' . $gradient_color . ' 0%, ' . $gradient_color . ' 100%),';
+
+        endif;
+
+        if ($page_style):
+            $page_class = $page_style;
+        endif;
+
+        echo '<style>';
+
+        if ($background_image):
+            echo 'body {';
+            echo 'background: ' . $gradient . 'url(' .  $background_image . ') no-repeat center;';
+            echo 'background-size: cover; background-attachment: fixed;';
+            echo '}';
+        endif;
+
+        if ($css):
+            echo $css ;
+        endif;
+
+        echo '</style>';
+
     }
 
 ?>
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class($page_class); ?>>
 
 <div class="page-wrapper">
 
