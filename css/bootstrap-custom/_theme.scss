@@ -9,9 +9,7 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-
 }
-
 
 @include media-breakpoint-up(xl){
 
@@ -84,30 +82,7 @@ p.huge, span.huge {
   text-align: center;
 }
 
-//for fixed header
-
-/*body.admin-bar {
-  header {
-    top: 32px;
-  }
-  .container-page {
-    margin-top: 120px;
-  }
-}
-
-body.admin-bar header {
-  top: 32px;
-}*/
-
 @include media-breakpoint-down(xl) {
-  body.admin-bar {
-    header {
-      top: 0;
-    }
-    .container-page {
-      margin-top: 0;
-    }
-  }
 
   header {
     top: 0;
@@ -117,13 +92,6 @@ body.admin-bar header {
   }
 
 }
-
-
-/*#main {
-  padding: 50px 0;
-}*/
-
-
 
 // headers
 
@@ -232,8 +200,6 @@ blockquote {
   font-size: 150px;
 }*/
 
-
-
 .carousel-home-quotes {
   blockquote {
     font-size: 44px;
@@ -311,7 +277,9 @@ blockquote {
 
 // footer //////////////////////
 
-.footer {
+
+footer {
+
   background: $footer-bg;
   background-size: cover;
   padding-top: 40px;
@@ -327,30 +295,6 @@ blockquote {
       }
     }
   }
-}
-
-#copyright-widget {
-  margin-top: 0;
-  color: #bbb;
-  font-size: 0.8rem;
-  letter-spacing: 0;
-
-  a, a:active, a:visited {
-    color: #bbb;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #bbb;
-    text-decoration: underline;
-  }
-
-  .copyright-date {
-    font-size: 0.8rem;
-  }
-}
-
-footer {
   ul.social-footer {
     margin-left: auto;
     width: 75px;
@@ -399,6 +343,28 @@ footer {
 
 }
 
+#copyright-widget {
+  margin-top: 0;
+  color: #bbb;
+  font-size: 0.8rem;
+  letter-spacing: 0;
+
+  a, a:active, a:visited {
+    color: #bbb;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #bbb;
+    text-decoration: underline;
+  }
+
+  .copyright-date {
+    font-size: 0.8rem;
+  }
+}
+
+
 
 @include media-breakpoint-down(xl){
   header {
@@ -415,7 +381,6 @@ footer {
   #main {
     padding-top: 61px;
   }
-
 
   footer {
     ul.social-footer {
@@ -466,6 +431,17 @@ footer {
   #copyright-widget {
     margin: 10px 0;
   }
+
+  .video-container {
+    width: 100%;
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 420px;
+    }
+
+  }
 }
 
 .container-breadcrumbs {
@@ -476,3 +452,4 @@ footer {
     color: $body-color;
   }
 }
+

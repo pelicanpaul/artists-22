@@ -12,7 +12,7 @@ body.home, body.page-template-flexible-content  {
   }
 }
 
-//, body.post-type-archive-tribe_events
+// body.post-type-archive-tribe_events
 
 body.body-dark {
   background-color: rgba(0,0,0,0.95);
@@ -74,8 +74,75 @@ body.body-dark {
   }
 }
 
+body.body-dark-translucent {
+  background-color: rgba(0,0,0,0.95);
+  color: #fff;
+
+  header {
+    background-color: rgba(0,0,0,0.50);
+    border-bottom: 1px solid transparent;
+
+    .logo {
+      filter: invert(1);
+    }
 
 
+    #menu-main-menu li {
+      background-color: transparent;
+
+      a {
+        color: #eee;
+      }
+    }
+  }
+
+  footer {
+    background-color: rgba(0,0,0,0.50);
+  }
+
+  h1, h2, h3, p li {
+    color: #fff;
+  }
+
+  .content-box {
+    background-color: rgba(0,0,0,0.75);
+    padding: 40px;
+    margin-bottom: 20px;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .content-box:last-of-type {
+    margin-bottom: 60px;
+    position: relative;
+  }
+
+  .content-box:last-of-type:after {
+    content: '\273B';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.7em;
+    color: #c00;
+    line-height: 1;
+    opacity: 0.7;
+
+  }
+
+  /*galleries*/
+
+  .rl-gallery-title {
+    color: #fff;
+  }
+}
+
+body.body-light-translucent {
+  header, footer {
+    background-color: rgba(255,255,255,0.50);
+  }
+}
 
 @include media-breakpoint-up(xl){
 
